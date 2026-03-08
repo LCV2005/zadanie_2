@@ -118,6 +118,11 @@ https://templatemo.com/tm-607-glass-admin
             <nav class="navbar">
                 <h1 class="page-title">Dashboard Overview</h1>
                 <div class="navbar-right">
+                    <?php
+                    echo "<h1>Hello world</h1>";
+                    echo "Dnes je " . date("d.m.Y") . "<br>";
+                    echo "Aktuálny čas je " . date("H:i:s") . "<br>";
+                    ?>
                     <div class="search-box">
                         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="11" cy="11" r="8"/>
